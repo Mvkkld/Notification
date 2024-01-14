@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 50px;
+}
+nav{
+    display: flex;
+    background-color: cornflowerblue;
+    width: 99%;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;position: fixed;
+    top: 0%;
+    justify-content: space-around;
+}
+nav > span{
+    padding-right: 800px;
+}
+nav > div{
+    position: relative;
+    padding: 2px 5px;
+    display: flex;
+    color: aliceblue;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+nav > div > img{
+    width: 40px;
+    height: 40px;
+}
+.parant{
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.box{
+    border: 1px solid black;
+    padding-bottom: 10px;
+    
+}
+.box > img{
+    width: 180px;
+    height: 180px;
+}
+.price{
+    border: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    background-color: red;
+}
+.available{
+    color: blue;
+    font-weight: bold;
+}
